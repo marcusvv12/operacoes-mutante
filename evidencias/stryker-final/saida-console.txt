@@ -1,0 +1,114 @@
+[32m13:27:21 (39140) INFO ProjectReader[39m Found 1 of 26 file(s) to be mutated.
+[32m13:27:21 (39140) INFO Instrumenter[39m Instrumented 1 source file(s) with 213 mutant(s)
+[32m13:27:21 (39140) INFO ConcurrencyTokenProvider[39m Creating 11 test runner process(es).
+[32m13:27:22 (39140) INFO DryRunExecutor[39m Starting initial test run (jest test runner with "perTest" coverage analysis). This may take a while.
+[32m13:27:23 (39140) INFO DryRunExecutor[39m Initial test run succeeded. Ran 77 tests in 0 seconds (net 34 ms, overhead 896 ms).
+
+All tests/operacoes.test.js
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 1. deve somar dois números positivos [line 15] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 2. deve subtrair dois números positivos [line 16] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 3. deve multiplicar dois números positivos [line 17] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 4. deve dividir e lançar erro para divisão por zero [line 18] (killed 5)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 5. deve calcular a potência com expoente positivo [line 22] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 6. deve calcular a raiz quadrada de um quadrado perfeito [line 23] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 7. deve retornar o resto da divisão [line 24] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 8. deve calcular o fatorial de um número maior que 1 [line 25] (killed 10)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 9. deve calcular a média de um array com múltiplos elementos [line 26] (killed 7)
+  ~ Suíte de Testes Fraca para 50 Operações Aritméticas 10. deve somar um array com múltiplos elementos [line 27] (covered 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 11. deve encontrar o valor máximo em um array [line 30] (killed 4)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 12. deve encontrar o valor mínimo em um array [line 31] (killed 4)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 13. deve retornar o valor absoluto de um número negativo [line 32] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 14. deve arredondar um número para cima [line 33] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 15. deve retornar true para um número par [line 34] (killed 4)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 16. deve retornar true para um número ímpar [line 35] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 17. deve calcular uma porcentagem simples [line 36] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 18. deve aumentar um valor em uma porcentagem [line 37] (killed 4)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 19. deve diminuir um valor em uma porcentagem [line 38] (killed 4)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 20. deve inverter o sinal de um número positivo [line 39] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 21. deve calcular o seno de 0 [line 42] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 22. deve calcular o cosseno de 0 [line 43] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 23. deve calcular a tangente de 0 [line 44] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 24. deve calcular o logaritmo natural de Euler [line 45] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 25. deve calcular o logaritmo na base 10 [line 46] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 26. deve arredondar para baixo [line 47] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 27. deve arredondar para cima [line 48] (killed 1)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 28. deve calcular a hipotenusa de um triângulo retângulo [line 49] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 29. deve converter graus para radianos [line 50] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 30. deve converter radianos para graus [line 51] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 31. deve calcular o MDC de dois números [line 54] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 32. deve calcular o MMC de dois números [line 55] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 33. deve verificar que um número é primo [line 56] (killed 8)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 34. deve calcular o 10º termo de Fibonacci [line 57] (killed 8)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 35. deve calcular o produto de um array [line 58] (killed 4)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 36. deve manter um valor dentro de um intervalo (clamp) [line 59] (killed 5)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 37. deve verificar se um número é divisível por outro [line 60] (killed 4)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 38. deve converter Celsius para Fahrenheit [line 61] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 39. deve converter Fahrenheit para Celsius [line 62] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 40. deve calcular o inverso de um número [line 63] (killed 4)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 41. deve calcular a área de um círculo [line 66] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 42. deve calcular a área de um retângulo [line 67] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 43. deve calcular o perímetro de um retângulo [line 68] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 44. deve verificar se um número é maior que outro [line 69] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 45. deve verificar se um número é menor que outro [line 70] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 46. deve verificar se dois números são iguais [line 71] (killed 3)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 47. deve calcular a mediana de um array ímpar e ordenado [line 72] (killed 7)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 48. deve calcular o dobro de um número [line 73] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 49. deve calcular o triplo de um número [line 74] (killed 2)
+  ✓ Suíte de Testes Fraca para 50 Operações Aritméticas 50. deve calcular a metade de um número [line 75] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Mensagens de erro (mutantes StringLiteral: mensagem -> "") divisao lança erro com mensagem específica [line 84] (killed 1)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Mensagens de erro (mutantes StringLiteral: mensagem -> "") raizQuadrada lança erro com mensagem específica [line 87] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Mensagens de erro (mutantes StringLiteral: mensagem -> "") fatorial lança erro com mensagem específica [line 90] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Mensagens de erro (mutantes StringLiteral: mensagem -> "") maximoArray lança erro para array vazio [line 93] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Mensagens de erro (mutantes StringLiteral: mensagem -> "") minimoArray lança erro para array vazio [line 96] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Mensagens de erro (mutantes StringLiteral: mensagem -> "") inverso lança erro para zero [line 99] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Mensagens de erro (mutantes StringLiteral: mensagem -> "") medianaArray lança erro para array vazio [line 102] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Valores de fronteira (mutantes EqualityOperator: < vs <=, > vs >=) raizQuadrada(0) é 0 e não lança erro (n < 0 -> n <= 0) [line 108] (killed 1)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Valores de fronteira (mutantes EqualityOperator: < vs <=, > vs >=) fatorial de 0 e 1 é 1 (n < 0 -> n <= 0) [line 111] (killed 1)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Valores de fronteira (mutantes EqualityOperator: < vs <=, > vs >=) isPrimo trata 0, 1 e negativos como não primos (n <= 1 -> n < 1) [line 116] (killed 3)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Valores de fronteira (mutantes EqualityOperator: < vs <=, > vs >=) isMaiorQue retorna false para valores iguais e para a < b [line 121] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Valores de fronteira (mutantes EqualityOperator: < vs <=, > vs >=) isMenorQue retorna false para valores iguais e para a > b [line 125] (killed 2)
+  ~ Suíte Reforçada: testes que matam os mutantes sobreviventes Valores de fronteira (mutantes EqualityOperator: < vs <=, > vs >=) clamp retorna os próprios limites quando o valor está na borda [line 129] (covered 9)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Casos negativos (mutantes ConditionalExpression -> true) isPar retorna false para ímpar [line 136] (killed 1)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Casos negativos (mutantes ConditionalExpression -> true) isImpar retorna false para par (também mata % -> *) [line 140] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Casos negativos (mutantes ConditionalExpression -> true) isDivisivel retorna false quando há resto [line 144] (killed 1)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Casos negativos (mutantes ConditionalExpression -> true) isEqual retorna false para valores diferentes [line 147] (killed 1)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Ramos não exercitados (mutantes ConditionalExpression -> false) mediaArray de array vazio é 0 (e não NaN) [line 153] (killed 1)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Ramos não exercitados (mutantes ConditionalExpression -> false) isPrimo detecta números compostos (mata i < n -> false, bloco vazio e % -> *) [line 156] (killed 6)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Ramos não exercitados (mutantes ConditionalExpression -> false) clamp limita valores abaixo do mínimo e acima do máximo [line 163] (killed 2)
+  ~ Suíte Reforçada: testes que matam os mutantes sobreviventes Ramos não exercitados (mutantes ConditionalExpression -> false) produtoArray de array vazio é 1 [line 167] (covered 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Fórmulas com valores que distinguem operadores (ArithmeticOperator) celsiusParaFahrenheit com valor diferente de zero [line 173] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes Fórmulas com valores que distinguem operadores (ArithmeticOperator) fahrenheitParaCelsius com valor diferente de 32 [line 177] (killed 2)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes medianaArray (ordenação e arrays de tamanho par) ordena um array desordenado antes de pegar o meio [line 184] (killed 3)
+  ~ Suíte Reforçada: testes que matam os mutantes sobreviventes medianaArray (ordenação e arrays de tamanho par) ordena numericamente e não lexicograficamente [line 188] (covered 13)
+  ✓ Suíte Reforçada: testes que matam os mutantes sobreviventes medianaArray (ordenação e arrays de tamanho par) calcula a média dos dois elementos centrais em array par [line 191] (killed 6)
+  ~ Suíte Reforçada: testes que matam os mutantes sobreviventes medianaArray (ordenação e arrays de tamanho par) não altera o array original [line 195] (covered 13)
+
+[Survived] EqualityOperator
+src/operacoes.js:90:7
+-     if (valor < min) return min;
++     if (valor <= min) return min;
+Tests ran:
+    Suíte de Testes Fraca para 50 Operações Aritméticas 36. deve manter um valor dentro de um intervalo (clamp)
+    Suíte Reforçada: testes que matam os mutantes sobreviventes Valores de fronteira (mutantes EqualityOperator: < vs <=, > vs >=) clamp retorna os próprios limites quando o valor está na borda
+    Suíte Reforçada: testes que matam os mutantes sobreviventes Ramos não exercitados (mutantes ConditionalExpression -> false) clamp limita valores abaixo do mínimo e acima do máximo
+
+
+[Survived] EqualityOperator
+src/operacoes.js:91:7
+-     if (valor > max) return max;
++     if (valor >= max) return max;
+Tests ran:
+    Suíte de Testes Fraca para 50 Operações Aritméticas 36. deve manter um valor dentro de um intervalo (clamp)
+    Suíte Reforçada: testes que matam os mutantes sobreviventes Valores de fronteira (mutantes EqualityOperator: < vs <=, > vs >=) clamp retorna os próprios limites quando o valor está na borda
+    Suíte Reforçada: testes que matam os mutantes sobreviventes Ramos não exercitados (mutantes ConditionalExpression -> false) clamp limita valores abaixo do mínimo e acima do máximo
+
+
+Ran 2.19 tests per mutant on average.
+--------------|------------------|----------|-----------|------------|----------|----------|
+              | % Mutation score |          |           |            |          |          |
+File          |  total | covered | # killed | # timeout | # survived | # no cov | # errors |
+--------------|--------|---------|----------|-----------|------------|----------|----------|
+All files     |  99.03 |   99.03 |      201 |         3 |          2 |        0 |        0 |
+ operacoes.js |  99.03 |   99.03 |      201 |         3 |          2 |        0 |        0 |
+--------------|--------|---------|----------|-----------|------------|----------|----------|
+[32m13:27:34 (39140) INFO MutationTestExecutor[39m Done in 12 seconds.
